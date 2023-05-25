@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .box{
+            height: 100vh;
+            width: 100%;
+            background: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .innerbox1{
+            height: 300px;
+            width: 300px;
+            background-color: brown;
+        }
+        .innerbox2{
+            height: 300px;
+            width: 300px;
+            background-color: rgb(18, 3, 3);
+        }
+    </style>
+</head>
+<body>
+    
+<!-- 1. Always add flex properties to the parent tag.
+2. To find parent tag first find which elements needs to be aligned.
+3. Immeditate parent of the elements can be treated as parent tag.
+
+justify-content : center,space-around  == to align the element in horizontal direction.
+align -items : It is used t0 align the elements in vertical direction. -->
+
+<div class="box">
+
+<div class="innerbox1">
+    
+</div>
+<div class="innerbox2">
+
+</div>
+<div class="innerbox1">
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>
